@@ -6,6 +6,7 @@ Repositorio dedicado ao desenvolvimento de um aplicativo que mostra os personage
 Detekt - https://detekt.dev/docs/gettingstarted/gradle
 SOLID - 
 Clean Architecture -
+Navigation - 
 
 ------------------------------------------------------------------------------------------------------------
 
