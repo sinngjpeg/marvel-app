@@ -12,8 +12,12 @@ Aplicativo desenvolvido para desenvolver habilidades tecnicas.
  -  [Detekt](https://detekt.dev/docs/gettingstarted/gradle) 
  - SOLID
  - Clean Architecture
+ - [App Android Architecture](https://developer.android.com/topic/architecture?hl=pt-br) 
  - Navigation
- - DI
+ - [DI](https://developer.android.com/training/dependency-injection?hl=pt-br)
+ - [Dagger Hilt](https://dagger.dev/hilt/)
+ - [Editor Markdown](https://stackedit.io)
+ - 
 
 ----------
 
