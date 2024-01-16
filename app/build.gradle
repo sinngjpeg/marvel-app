@@ -1,21 +1,24 @@
 plugins {
     id 'com.android.application'
-    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-android'
 }
 
 apply plugin: 'kotlin-kapt'
-//apply plugin: ''
-//apply plugin: ''
-//apply plugin: ''
+//apply plugin: 'dagger.hilt.android.plugin'
+//apply plugin: "androidx.navigation.safeargs"
+apply plugin: 'kotlin-parcelize'
+apply from: '../config/detekt/detekt.gradle'
+
 
 android {
-    namespace 'com.sinngjpeg.marvelapp'
-    compileSdk 34
+
+    compileSdkVersion 33
+    namespace 'com.sinngjpeg.namespace'
 
     defaultConfig {
         applicationId "com.sinngjpeg.marvelapp"
         minSdk 23
-        targetSdk 34
+        targetSdkVersion 33
         versionCode 1
         versionName "1.0"
 
@@ -51,6 +54,7 @@ dependencies {
     // Material design
     implementation 'com.google.android.material:material:1.6.1'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    testImplementation 'org.testng:testng:6.9.6'
 
     // Navigation
     def nav_version = '2.5.2'

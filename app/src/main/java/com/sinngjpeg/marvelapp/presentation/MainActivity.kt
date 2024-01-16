@@ -2,7 +2,7 @@ package com.sinngjpeg.marvelapp.presentation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.sinngjpeg.marvelapp.R
+import com.sinngjpeg.namespace.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
